@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonSeo-Kim</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        function changeToPainting1(){
+            $('#Ifrm').attr('src', 'p_assignment1.html')
+        }
+
+        function changeToPainting2(){
+            $('#Ifrm').attr('src', 'p_assignment2.html')
+        }
+
+        function changeToVideo(){
+            $('#Ifrm').attr('src', 'v_assignment.html')
+        }
+
+        function changeToSculpture(){
+            $('#Ifrm').attr('src', 'sculpture.html')
+        }
+
+    </script>
+</head>
+<body>
+    <p id="name">YoonSeo-Kim.kor</p>
+
+    <section>
+
+    <div id="link">
+
+    <div id="navlink">
+        <b class="artwork">Artwork</b>
+        <ul type="none">
+            <li class="serif">/painting</li>
+            <ul type="none">
+                <li class="serif"><input type="button" onclick="changeToPainting1()" class="mostuseful" value="///assignment1"></button></li>
+                <li class="serif"><input type="button" onclick="changeToPainting2()" class="mostuseful" value="///assignment2"></button></li>
+            </ul>     
+            <!-- <li class="serif">/video</li>
+            <ul type="none">
+                <li class="serif"><input type="button" onclick="changeToVideo()" class="mostuseful" value="///assignment"></button></li>
+            </ul> -->
+            <li class="serif"> /sculpture</li>
+            <ul type="none">
+                <li class="serif"><input type="button" onclick="changeToSculpture()" class="mostuseful" value="///assignment"></button></li>
+            </ul>
+        </ul>    
+    </div>
+    
+    <div id="showFrame">
+        <iframe src="main.html" name="Ifrm" id="Ifrm" scrolling="yes">
+
+
+        </iframe>
+    </div>
+
+</section>    
+</body>
+</html>

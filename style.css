@@ -1,0 +1,42 @@
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.artwork {
+    font-size: 120px;
+    font-weight: ultra-expanded;
+}
+
+section {
+    height: 85%;
+    display: block;
+}
+
+#navlink {
+    display: inline-block;
+    width: 15%;
+}
+
+iframe {
+    width: 80%; 
+    height: 700px; 
+    float: right; 
+    padding-right: 5px; 
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.mostuseful {
+    background-color: transparent;
+    border: none;
+    color: indigo;
+}
+
+#name {
+    color: gray;
+}
